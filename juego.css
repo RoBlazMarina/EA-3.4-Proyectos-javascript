@@ -13,35 +13,35 @@ body {
 }
 
 #personaje {
-  position: absolute;
-  bottom: 0;
-  left: 50px;
-  font-size: 40px;
-  text-shadow: 0 0 5px #27ae60;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    font-size: 40px;
+    text-shadow: 0 0 5px #27ae60;
 }
 
 #personaje::before {
-  content: "";
-  position: absolute;
-  width: 45px;
-  height: 45px;
-  background: #2ecc71;
-  border-radius: 50%;
-  left: -2px;
-  bottom: 0;
-  z-index: -1;
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background: #2ecc71;
+    border-radius: 50%;
+    left: -2px;
+    bottom: 0;
+    z-index: -1;
 }
 #obstaculo {
-  position: absolute;
-  bottom: 0;
-  right: -60px;
-  width: 60px;
-  height: 60px;
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: mover 1.5s linear infinite;
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: mover 1.5s linear infinite;
 }
 
 
@@ -78,23 +78,23 @@ body {
 }
 
 #controles {
-  margin-top: 20px;
-  text-align: center;
+    margin-top: 20px;
+    text-align: center;
 }
 
 #controles button {
-  padding: 10px 20px;
-  margin: 0 10px;
-  font-size: 16px;
-  cursor: pointer;
-  border: none;
-  border-radius: 6px;
-  background: #444;
-  color: white;
-  transition: 0.2s;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background: #444;
+    color: white;
+    transition: 0.2s;
 }
 
 #controles button:hover {
-  background: #666;
+    background: #666;
 }
 

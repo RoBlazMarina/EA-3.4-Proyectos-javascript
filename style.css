@@ -1,10 +1,16 @@
 /* styles.css */
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* centrado horizontal */
+  align-items: flex-start; /* No lo centramos verticalmente */
   min-height: 100vh;
   background: #333;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #tablero {
